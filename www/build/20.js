@@ -1,6 +1,6 @@
 webpackJsonp([20],{
 
-/***/ 1831:
+/***/ 1830:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9,7 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__general__ = __webpack_require__(1952);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__general__ = __webpack_require__(1951);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
 // (C) Copyright 2015 Martin Dougiamas
@@ -60,7 +60,7 @@ var CoreSettingsGeneralPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 1952:
+/***/ 1951:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -161,7 +161,7 @@ var CoreSettingsGeneralPage = /** @class */ (function () {
     };
     CoreSettingsGeneralPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-core-settings-general',template:/*ion-inline-start:"C:\Final\app_and_352\src\core\settings\pages\general\general.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.settings.general\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-item text-wrap>\n\n        <ion-label><h2>{{ \'core.settings.language\' | translate }}</h2></ion-label>\n\n        <ion-select [(ngModel)]="selectedLanguage" (ngModelChange)="languageChanged()" interface="popover">\n\n            <ion-option *ngFor="let code of languageCodes" [value]="code">{{ languages[code] }}</ion-option>\n\n        </ion-select>\n\n    </ion-item>\n\n    <ion-item text-wrap *ngIf="rteSupported">\n\n        <ion-label>\n\n            <h2>{{ \'core.settings.enablerichtexteditor\' | translate }}</h2>\n\n            <p>{{ \'core.settings.enablerichtexteditordescription\' | translate }}</p>\n\n        </ion-label>\n\n        <ion-toggle [(ngModel)]="richTextEditor" (ngModelChange)="richTextEditorChanged()"></ion-toggle>\n\n    </ion-item>\n\n    <ion-item text-wrap *ngIf="showReport">\n\n        <ion-label><h2>{{ \'core.settings.reportinbackground\' | translate }}</h2></ion-label>\n\n        <ion-toggle [(ngModel)]="reportInBackground" (ngModelChange)="reportInBackgroundChanged()"></ion-toggle>\n\n    </ion-item>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Final\app_and_352\src\core\settings\pages\general\general.html"*/,
+            selector: 'page-core-settings-general',template:/*ion-inline-start:"C:\Final\app_ios_352\src\core\settings\pages\general\general.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>{{ \'core.settings.general\' | translate }}</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n<ion-content>\n\n    <ion-item text-wrap>\n\n        <ion-label><h2>{{ \'core.settings.language\' | translate }}</h2></ion-label>\n\n        <ion-select [(ngModel)]="selectedLanguage" (ngModelChange)="languageChanged()" interface="popover">\n\n            <ion-option *ngFor="let code of languageCodes" [value]="code">{{ languages[code] }}</ion-option>\n\n        </ion-select>\n\n    </ion-item>\n\n    <ion-item text-wrap *ngIf="rteSupported">\n\n        <ion-label>\n\n            <h2>{{ \'core.settings.enablerichtexteditor\' | translate }}</h2>\n\n            <p>{{ \'core.settings.enablerichtexteditordescription\' | translate }}</p>\n\n        </ion-label>\n\n        <ion-toggle [(ngModel)]="richTextEditor" (ngModelChange)="richTextEditorChanged()"></ion-toggle>\n\n    </ion-item>\n\n    <ion-item text-wrap *ngIf="showReport">\n\n        <ion-label><h2>{{ \'core.settings.reportinbackground\' | translate }}</h2></ion-label>\n\n        <ion-toggle [(ngModel)]="reportInBackground" (ngModelChange)="reportInBackgroundChanged()"></ion-toggle>\n\n    </ion-item>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Final\app_ios_352\src\core\settings\pages\general\general.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_file__["a" /* CoreFileProvider */],
             __WEBPACK_IMPORTED_MODULE_5__providers_events__["a" /* CoreEventsProvider */], __WEBPACK_IMPORTED_MODULE_6__providers_lang__["a" /* CoreLangProvider */],

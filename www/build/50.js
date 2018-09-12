@@ -97,7 +97,7 @@ var CoreSplitViewPlaceholderPage = /** @class */ (function () {
     }
     CoreSplitViewPlaceholderPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'core-placeholder',template:/*ion-inline-start:"C:\Final\app_and_352\src\components\split-view\placeholder\core-placeholder.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>&nbsp;</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <core-empty-box icon="arrow-dropleft" [message]="\'core.emptysplit\' | translate"></core-empty-box>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Final\app_and_352\src\components\split-view\placeholder\core-placeholder.html"*/,
+            selector: 'core-placeholder',template:/*ion-inline-start:"C:\Final\app_ios_352\src\components\split-view\placeholder\core-placeholder.html"*/'<ion-header>\n\n    <ion-navbar core-back-button>\n\n        <ion-title>&nbsp;</ion-title>\n\n    </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n    <core-empty-box icon="arrow-dropleft" [message]="\'core.emptysplit\' | translate"></core-empty-box>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Final\app_ios_352\src\components\split-view\placeholder\core-placeholder.html"*/,
         }),
         __metadata("design:paramtypes", [])
     ], CoreSplitViewPlaceholderPage);
