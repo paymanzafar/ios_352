@@ -26,7 +26,7 @@ import { CoreConfigConstants } from '../configconstants';
 @Injectable()
 export class CoreLangProvider {
     protected fallbackLanguage = 'en'; // Always use English as fallback language since it contains all strings.
-    protected defaultLanguage = CoreConfigConstants.default_lang || 'en'; // Lang to use if device lang not valid or is forced.
+    protected defaultLanguage = CoreConfigConstants.default_lang || 'fa'; // Lang to use if device lang not valid or is forced.
     protected currentLanguage: string; // Save current language in a variable to speed up the get function.
     protected customStrings = {}; // Strings defined using the admin tool.
     protected customStringsRaw: string;
