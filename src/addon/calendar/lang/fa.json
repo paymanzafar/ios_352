@@ -1,0 +1,20 @@
+{
+    "calendar": "تقویم",
+	"calendarevents": "رویدادهای تقویم",
+    "defaultnotificationtime": "زمان پیش‌فرض اطلاع‌رسانی",
+    "errorloadevent": "خطا هنگام دریافت اطلاعات رویداد.",
+    "errorloadevents": "خطا هنگام دریافت اطلاعات رویداد‌ها.",
+    "eventendtime": "زمان پایان رویداد",
+    "eventstarttime": "زمان شروع رویداد",
+    "noevents": "هیچ رویدادی وجود ندارد.",
+    "notifications": "اعلانات",
+	"typeclose": "رویداد پایان دسترسی به دوره / آزمون",
+    "typecourse": "رویداد مطالعه دوره",
+    "typecategory": "رویداد طبقه‌بندی دوره",
+    "typedue": "رویداد پایان مهلت",
+    "typegradingdue": "رویداد پایان مهلت نمره‌دهی",
+    "typegroup": "رویداد گروه",
+    "typeopen": "رویداد آغاز دسترسی به دوره / آزمون",
+    "typesite": "رویداد سایت",
+    "typeuser": "رویداد حساب کاربری"
+}

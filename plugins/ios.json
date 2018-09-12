@@ -1,0 +1,87 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com-darryncampbell-cordova-plugin-intent": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "moodlemobile",
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-local-notifications-mm": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-sqlite-evcore-extbuild-free": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "nl.kingsquare.cordova.background-audio": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "phonegap-plugin-push": {
+      "SENDER_ID": "770545864159",
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    }
+  }
+}

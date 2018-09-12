@@ -1,0 +1,22 @@
+{
+    "answer": "جواب",
+    "answersaved": "پاسخ ذخیره شد",
+	"certainty": "میزان اطمینان",
+    "complete": "کامل",
+    "correct": "صحیح",
+	"errorattachmentsnotsupported": "فعلا امکان اتصال فایل به پاسخ‌ها در نرم‌افزار موبایل وجود ندارد.",
+    "errorinlinefilesnotsupported": "فعلا امکان ویرایش فایل‌ها در نرم‌افزار موبایل وجود ندارد.",
+    "errorquestionnotsupported": "این نوع سوال توسط نرم‌افزار موبایل پشتیبانی نمی‌شود : {{$a}}",
+    "feedback": "بازخورد",
+	"howtodraganddrop": "برای انتخاب کلیک کنید و سپس برای حذف کلیک کنید.",
+    "incorrect": "نادرست",
+    "information": "توضیح",
+    "invalidanswer": "پاسخ ناقص",
+    "notanswered": "هنوز پاسخ نداده‌اند",
+    "notyetanswered": "هنوز پاسخ داده نشده است",
+    "partiallycorrect": "نیمه درست",
+	"questionmessage": "سوال {{$a}}: {{$b}}",
+    "questionno": "سؤال {{$a}}",
+    "requiresgrading": "نمره‌دهی لازم است",
+    "unknown": "نامعلوم"
+}
