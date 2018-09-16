@@ -15,7 +15,7 @@
 // tslint:disable: variable-name
 export class CoreConfigConstants {
     static app_id = 'com.magfalms.magfaapp';
-    static appname = 'MagfaELM';
+    static appname = 'MagAmooz';
     static desktopappname = 'Magfa Desktop';
     static versioncode = 3520;
     static versionname = '3.5.20';
@@ -46,5 +46,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = true;
     static privacypolicy = 'https://moodle.org/mod/page/view.php?id=8148';
-    static compilationtime = 1537089827314;
+    static compilationtime = 1537097994954;
 }
