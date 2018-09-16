@@ -119,18 +119,8 @@
               "count": 1
             }
           ],
-          "GCM_SENDER_ID": [
-            {
-              "xml": "<string>770545864159</string>",
-              "count": 1
-            }
-          ],
-          "IS_GCM_ENABLED": [
-            {
-              "xml": "<true />",
-              "count": 1
-            }
-          ]
+          "GCM_SENDER_ID": [],
+          "IS_GCM_ENABLED": []
         }
       },
       "*-Debug.plist": {
@@ -227,7 +217,6 @@
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
     "phonegap-plugin-push": {
-      "SENDER_ID": "770545864159",
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     }
   },
@@ -707,6 +696,6 @@
     "cordova-sqlite-evcore-extbuild-free": "0.9.7",
     "ionic-plugin-keyboard": "2.2.1",
     "nl.kingsquare.cordova.background-audio": "1.0.1",
-    "phonegap-plugin-push": "1.11.1"
+    "phonegap-plugin-push": "2.2.3"
   }
 }

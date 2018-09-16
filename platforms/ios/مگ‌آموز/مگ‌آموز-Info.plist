@@ -68,9 +68,5 @@
       <string>audio</string>
       <string>remote-notification</string>
     </array>
-    <key>GCM_SENDER_ID</key>
-    <string>770545864159</string>
-    <key>IS_GCM_ENABLED</key>
-    <true/>
   </dict>
 </plist>

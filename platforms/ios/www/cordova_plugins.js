@@ -476,7 +476,7 @@ module.exports.metadata =
   "cordova-sqlite-evcore-extbuild-free": "0.9.7",
   "ionic-plugin-keyboard": "2.2.1",
   "nl.kingsquare.cordova.background-audio": "1.0.1",
-  "phonegap-plugin-push": "1.11.1"
+  "phonegap-plugin-push": "2.2.3"
 };
 // BOTTOM OF METADATA
 });

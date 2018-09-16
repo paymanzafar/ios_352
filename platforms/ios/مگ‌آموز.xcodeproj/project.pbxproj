@@ -76,11 +76,9 @@
 		1FE01522D99349CEB4F4DA09 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = 27B8901FF3234FAF84265082 /* sqlite3.c */; settings = {COMPILER_FLAGS = "-w -DSQLITE_THREADSAFE=1 -DSQLITE_DEFAULT_SYNCHRONOUS=3 -DSQLITE_LOCKING_STYLE=1 -DHAVE_USLEEP=1 -DSQLITE_DEFAULT_MEMSTATUS=0 -DSQLITE_OMIT_DECLTYPE -DSQLITE_OMIT_DEPRECATED -DSQLITE_OMIT_PROGRESS_CALLBACK -DSQLITE_OMIT_SHARED_CACHE -DSQLITE_TEMP_STORE=2 -DSQLITE_OMIT_LOAD_EXTENSION -DSQLITE_ENABLE_FTS3 -DSQLITE_ENABLE_FTS3_PARENTHESIS -DSQLITE_ENABLE_FTS4 -DSQLITE_ENABLE_FTS5 -DSQLITE_ENABLE_RTREE -DSQLITE_ENABLE_JSON1 -DSQLITE_DEFAULT_PAGE_SIZE=4096 -DSQLITE_DEFAULT_CACHE_SIZE=-2000"; }; };
 		75B1FB884F0E4048AA457046 /* IonicKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC89301B9C7434491870AD1 /* IonicKeyboard.m */; };
 		F552B865953A41A88F150603 /* BackgroundAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E6E806C41C4464BB71EBE4 /* BackgroundAudio.m */; };
-		B4075EA0B4304379A5450075 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = EA83222E3F874FD2918E6252 /* AppDelegate+notification.m */; };
-		B79EB405950A40179099738C /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DB07FDB498254D6AA43950A8 /* PushPlugin.m */; };
-		EC53A418B64D40E9B36BF7EA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6860DC71F3F54F37BC1AD368 /* AddressBook.framework */; };
-		0C9DBF089B694B15861ACCC3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCD1E4C80604DB9BFC7A4B9 /* libsqlite3.tbd */; };
-		0A1E3B2C3070463E83232A9E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8486DEACF21E4BD2904E30D0 /* libz.tbd */; };
+		208F85558F8440A4A9D44644 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 936399F08AC44BFDB04ADAB2 /* AppDelegate+notification.m */; };
+		BF7ED28C82F546E8B056B986 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BADA1C316449BF9BF5020C /* PushPlugin.m */; };
+		7B4EDCB948824DFB8FEA2F9D /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152042D6631E464EA205DE46 /* PushKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,13 +237,11 @@
 		EEC89301B9C7434491870AD1 /* IonicKeyboard.m */ = {isa = PBXFileReference; name = "IonicKeyboard.m"; path = "ionic-plugin-keyboard/IonicKeyboard.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
 		C53DD972CC894634B12994B8 /* IonicKeyboard.h */ = {isa = PBXFileReference; name = "IonicKeyboard.h"; path = "ionic-plugin-keyboard/IonicKeyboard.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 		C7E6E806C41C4464BB71EBE4 /* BackgroundAudio.m */ = {isa = PBXFileReference; name = "BackgroundAudio.m"; path = "nl.kingsquare.cordova.background-audio/BackgroundAudio.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		EA83222E3F874FD2918E6252 /* AppDelegate+notification.m */ = {isa = PBXFileReference; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		DB07FDB498254D6AA43950A8 /* PushPlugin.m */ = {isa = PBXFileReference; name = "PushPlugin.m"; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
-		19ED570E21EC42E5973B5299 /* AppDelegate+notification.h */ = {isa = PBXFileReference; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		7816FE97EE9948F7AA508FAC /* PushPlugin.h */ = {isa = PBXFileReference; name = "PushPlugin.h"; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
-		6860DC71F3F54F37BC1AD368 /* AddressBook.framework */ = {isa = PBXFileReference; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
-		8CCD1E4C80604DB9BFC7A4B9 /* libsqlite3.tbd */ = {isa = PBXFileReference; name = "libsqlite3.tbd"; path = "usr/lib/libsqlite3.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
-		8486DEACF21E4BD2904E30D0 /* libz.tbd */ = {isa = PBXFileReference; name = "libz.tbd"; path = "usr/lib/libz.tbd"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = sourcecode.text-based-dylib-definition; explicitFileType = undefined; includeInIndex = 0; };
+		936399F08AC44BFDB04ADAB2 /* AppDelegate+notification.m */ = {isa = PBXFileReference; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		26BADA1C316449BF9BF5020C /* PushPlugin.m */ = {isa = PBXFileReference; name = "PushPlugin.m"; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		4CCFF06D73EB48E38E549C52 /* AppDelegate+notification.h */ = {isa = PBXFileReference; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		D2069D0B94394DD992626952 /* PushPlugin.h */ = {isa = PBXFileReference; name = "PushPlugin.h"; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
+		152042D6631E464EA205DE46 /* PushKit.framework */ = {isa = PBXFileReference; name = "PushKit.framework"; path = "System/Library/Frameworks/PushKit.framework"; sourceTree = SDKROOT; fileEncoding = undefined; lastKnownFileType = wrapper.framework; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,9 +257,7 @@
 				AB4BB41CA8E14049A65D8C5B /* SystemConfiguration.framework in Frameworks */,
 				20BF1811A51A4BFCA128BA9D /* CoreTelephony.framework in Frameworks */,
 				CE1BBB6F965247DAABFE33A1 /* libz.dylib in Frameworks */,
-				EC53A418B64D40E9B36BF7EA /* AddressBook.framework in Frameworks */,
-				0C9DBF089B694B15861ACCC3 /* libsqlite3.tbd in Frameworks */,
-				0A1E3B2C3070463E83232A9E /* libz.tbd in Frameworks */,
+				7B4EDCB948824DFB8FEA2F9D /* PushKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,9 +336,7 @@
 				4AF09F41DA714157A08F462E /* SystemConfiguration.framework */,
 				AD9C8054572F4E64B3C9F0A3 /* CoreTelephony.framework */,
 				E3D577EAE38B41AC97D7B0B1 /* libz.dylib */,
-				6860DC71F3F54F37BC1AD368 /* AddressBook.framework */,
-				8CCD1E4C80604DB9BFC7A4B9 /* libsqlite3.tbd */,
-				8486DEACF21E4BD2904E30D0 /* libz.tbd */,
+				152042D6631E464EA205DE46 /* PushKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -480,10 +472,10 @@
 				EEC89301B9C7434491870AD1 /* IonicKeyboard.m */,
 				C53DD972CC894634B12994B8 /* IonicKeyboard.h */,
 				C7E6E806C41C4464BB71EBE4 /* BackgroundAudio.m */,
-				EA83222E3F874FD2918E6252 /* AppDelegate+notification.m */,
-				DB07FDB498254D6AA43950A8 /* PushPlugin.m */,
-				19ED570E21EC42E5973B5299 /* AppDelegate+notification.h */,
-				7816FE97EE9948F7AA508FAC /* PushPlugin.h */,
+				936399F08AC44BFDB04ADAB2 /* AppDelegate+notification.m */,
+				26BADA1C316449BF9BF5020C /* PushPlugin.m */,
+				4CCFF06D73EB48E38E549C52 /* AppDelegate+notification.h */,
+				D2069D0B94394DD992626952 /* PushPlugin.h */,
 			);
 			name = Plugins;
 			path = "مگ‌آموز/Plugins";
@@ -649,8 +641,8 @@
 				1FE01522D99349CEB4F4DA09 /* sqlite3.c in Resources */,
 				75B1FB884F0E4048AA457046 /* IonicKeyboard.m in Sources */,
 				F552B865953A41A88F150603 /* BackgroundAudio.m in Sources */,
-				B4075EA0B4304379A5450075 /* AppDelegate+notification.m in Sources */,
-				B79EB405950A40179099738C /* PushPlugin.m in Sources */,
+				208F85558F8440A4A9D44644 /* AppDelegate+notification.m in Sources */,
+				BF7ED28C82F546E8B056B986 /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
