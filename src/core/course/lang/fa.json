@@ -1,5 +1,9 @@
 {
-    "allsections": "تمام درس‌ها/فصل‌ها",
+    "activitydisabled": "این فعالیت در نرم‌افزار تلفن همراه غیرفعال شده است.",
+    "activitynotyetviewableremoteaddon": "پلاگین نصب‌شده روی سرور، پشتیبانی نمی‌شود.",
+    "activitynotyetviewablesiteupgradeneeded": "نرم‌افزار سرور بایستی بروزرسانی شود.",
+	"allsections": "تمام درس‌ها/فصل‌ها",
+	"askadmintosupport": "با واحد پشتیبانی تماس بگیرید و اعلام نمایید که نیاز به استفاده از این فعالیت در نرم‌افزار تلفن همراه دارید.",
     "confirmdeletemodulefiles": "آیا مطمئنید که می‌خواهید فایل‌های این ماژول را پاک کنید؟",
     "confirmdownload": "شما در آستانهٔ دریافت {{size}} هستید. آیا مطمئنید که می‌خواهید ادامه دهید؟",
     "confirmdownloadunknownsize": "ما نتوانستیم حجم دریافت را محاسبه کنیم. آیا مطمئنید که می‌خواهید ادامه دهید؟",
@@ -9,7 +13,14 @@
     "couldnotloadsections": "درس‌ها/فصل‌ها نتوانستند بارگیری شوند. لطفا بعدا دوباره تلاش کنید.",
 	"coursesummary": "خلاصه دوره",
 	"downloadcourse": "دریافت دوره",
-    "hiddenfromstudents": "پنهان از شاگردان",
+	"errordownloadingcourse": "هنگام دریافت درس، خطا رخ داده است.",
+    "errordownloadingsection": "هنگام دریافت فصل، خطا رخ داده است.",
+    "errorgetmodule": "هنگام دریافت اطلاعات فعالیت، خطا رخ داده است.",
+    "hiddenfromstudents": "پنهان از فراگیران",
+	"hiddenoncoursepage": "وجود دارد اما در این صفحه نمایش داده نمی‌شود.",
+	"nocontentavailable": "درحال حاضر محتوایی برای نمایش وجود ندارد.",
+	"overriddennotice": "",
+    "refreshcourse": "بروزرسانی درس",
 	"sections": "فصل‌ها",
     "useactivityonbrowser": "البته همچنان می‌توانید با استفاده از مرورگر دستگاه خود، از آن استفاده کنید."
 }

@@ -46,5 +46,5 @@ export class CoreConfigConstants {
     static skipssoconfirmation = false;
     static forcedefaultlanguage = true;
     static privacypolicy = 'https://moodle.org/mod/page/view.php?id=8148';
-    static compilationtime = 1537097994954;
+    static compilationtime = 1537176221459;
 }
