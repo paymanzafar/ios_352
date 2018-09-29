@@ -76,6 +76,10 @@
     },
     "phonegap-plugin-push": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-app-name": {
+      "APP_NAME": "مگ‌آموز",
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
     }
   },
   "dependent_plugins": {

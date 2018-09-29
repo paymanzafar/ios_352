@@ -118,6 +118,18 @@
               "xml": "<array><string>remote-notification</string></array>",
               "count": 1
             }
+          ],
+          "CFBundleName": [
+            {
+              "xml": "<string>مگ‌آموز</string>",
+              "count": 1
+            }
+          ],
+          "CFBundleDisplayName": [
+            {
+              "xml": "<string>مگ‌آموز</string>",
+              "count": 1
+            }
           ]
         }
       },
@@ -215,6 +227,10 @@
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
     "phonegap-plugin-push": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-app-name": {
+      "APP_NAME": "مگ‌آموز",
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     }
   },
@@ -694,6 +710,7 @@
     "cordova-sqlite-evcore-extbuild-free": "0.9.7",
     "ionic-plugin-keyboard": "2.2.1",
     "nl.kingsquare.cordova.background-audio": "1.0.1",
-    "phonegap-plugin-push": "2.2.3"
+    "phonegap-plugin-push": "2.2.3",
+    "cordova-plugin-app-name": "1.0.4"
   }
 }

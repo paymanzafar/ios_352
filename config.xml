@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.magfalms.magfaapp" version="3.5.20" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>مگ‌آموز</name>
+    <name>MagAmooz</name>
     <description>MAGFA E-Learning App</description>
     <author email="admin@magfalms.net" href="http://magfa.com">MAGFA E-Learning team</author>
     <content src="index.html" />
@@ -130,6 +130,9 @@
     </plugin>
     <plugin name="phonegap-plugin-push" spec="^2.2.3">
         <variable name="SENDER_ID" value="770545864159" />
+    </plugin>
+    <plugin name="cordova-plugin-app-name" spec="^1.0.4">
+        <variable name="APP_NAME" value="مگ‌آموز" />
     </plugin>
     <engine name="ios" spec="4.5.5" />
 </widget>
