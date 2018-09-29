@@ -1,0 +1,9 @@
+{
+  "config_ios" : {
+    "CFBundleDisplayName": "مگ‌آموز",
+    "CFBundleName": "مگ‌آموز"
+  },
+  "config_android" : {
+    "app_name": "مگ‌آموز"
+  }
+}

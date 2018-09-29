@@ -118,9 +118,7 @@
               "xml": "<array><string>remote-notification</string></array>",
               "count": 1
             }
-          ],
-          "GCM_SENDER_ID": [],
-          "IS_GCM_ENABLED": []
+          ]
         }
       },
       "*-Debug.plist": {
@@ -187,6 +185,9 @@
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
     "cordova-plugin-local-notifications-mm": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-plugin-localization-strings": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
     "cordova-plugin-media-capture": {
@@ -687,6 +688,7 @@
     "cordova-plugin-globalization": "1.11.0",
     "cordova-plugin-inappbrowser": "3.0.0",
     "cordova-plugin-local-notifications-mm": "1.0.13",
+    "cordova-plugin-localization-strings": "2.0.0",
     "cordova-plugin-media-capture": "3.0.2",
     "cordova-plugin-network-information": "2.0.1",
     "cordova-plugin-splashscreen": "5.0.2",

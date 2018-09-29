@@ -47,6 +47,9 @@
     "cordova-plugin-local-notifications-mm": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
+    "cordova-plugin-localization-strings": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
     "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
