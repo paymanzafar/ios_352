@@ -1,9 +1,0 @@
-{
-  "config_ios" : {
-    "CFBundleDisplayName": "MagAmooz",
-    "CFBundleName": "MagAmooz"
-  },
-  "config_android" : {
-    "app_name": "MagAmooz"
-  }
-}

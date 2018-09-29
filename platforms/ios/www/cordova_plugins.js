@@ -467,7 +467,6 @@ module.exports.metadata =
   "cordova-plugin-globalization": "1.11.0",
   "cordova-plugin-inappbrowser": "3.0.0",
   "cordova-plugin-local-notifications-mm": "1.0.13",
-  "cordova-plugin-localization-strings": "2.0.0",
   "cordova-plugin-media-capture": "3.0.2",
   "cordova-plugin-network-information": "2.0.1",
   "cordova-plugin-splashscreen": "5.0.2",

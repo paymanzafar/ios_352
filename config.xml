@@ -131,6 +131,5 @@
     <plugin name="phonegap-plugin-push" spec="^2.2.3">
         <variable name="SENDER_ID" value="770545864159" />
     </plugin>
-    <plugin name="cordova-plugin-localization-strings" spec="https://github.com/kelvinhokk/cordova-plugin-localization-strings.git" />
     <engine name="ios" spec="4.5.5" />
 </widget>
